@@ -1,0 +1,74 @@
+[
+    {
+        "nom": "Mojito",
+        "pays": "Cuba",
+        "lat": 23.1136,
+        "lng": -82.3666,
+        "image": "assets/img/mojito.jpg",
+        "description": "Rhum, citron vert, menthe, sucre et eau gazeuse.",
+        "alcool": "Rhum"
+    },
+    {
+        "nom": "Daiquiri",
+        "pays": "Cuba",
+        "lat": 23.1136,
+        "lng": -82.3666,
+        "image": "assets/img/daiquiri.jpg",
+        "description": "Rhum blanc, jus citron vert, sirop de sucre.",
+        "alcool": "Rhum"
+    },
+    {
+        "nom": "Pornstar Martini",
+        "pays": "Angleterre",
+        "lat": 51.509865,
+        "lng": -0.118092,
+        "image": "assets/img/pornstar_martini.jpg",
+        "description": "Vodka, purée et liqueur de passion, Prosecco à côté.",
+        "alcool": "Vodka"
+    },
+    {
+        "nom": "Cosmopolitan",
+        "pays": "États-Unis",
+        "lat": 40.7128,
+        "lng": -74.006,
+        "image": "assets/img/cosmopolitan.jpg",
+        "description": "Vodka, triple sec, jus de cranberry, jus citron vert.",
+        "alcool": "Vodka"
+    },
+    {
+        "nom": "Whiskey Sour",
+        "pays": "États-Unis",
+        "lat": 40.7128,
+        "lng": -74.006,
+        "image": "assets/img/whiskey_sour.jpg",
+        "description": "Whiskey, jus de citron, sirop, blanc d'œuf.",
+        "alcool": "Whiskey"
+    },
+    {
+        "nom": "Pisco Sour",
+        "pays": "Pérou",
+        "lat": -9.19,
+        "lng": -75.0152,
+        "image": "assets/img/pisco_sour.jpg",
+        "description": "Pisco, jus citron vert, sirop, blanc d'œuf, bitter.",
+        "alcool": "Pisco"
+    },
+    {
+        "nom": "Piña Colada",
+        "pays": "Porto Rico",
+        "lat": 18.2208,
+        "lng": -66.5901,
+        "image": "assets/img/pina_colada.jpg",
+        "description": "Rhum blanc, lait de coco, jus d'ananas.",
+        "alcool": "Rhum"
+    },
+    {
+        "nom": "Blue Lagoon",
+        "pays": "France",
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "image": "assets/img/blue_lagoon.jpg",
+        "description": "Vodka, curaçao bleu, jus de citron, eau gazeuse.",
+        "alcool": "Vodka"
+    }
+]
