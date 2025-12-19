@@ -70,5 +70,50 @@
         "image": "assets/img/blue_lagoon.jpg",
         "description": "Vodka, curaçao bleu, jus de citron, eau gazeuse.",
         "alcool": "Vodka"
+    },
+    {
+        "nom": "Negroni",
+        "pays": "Italie",
+        "lat": 45.4642,
+        "lng": 9.19,
+        "image": "assets/img/negroni.jpg",
+        "description": "Gin, Campari, Vermouth rouge.",
+        "alcool": "Gin"
+    },
+    {
+        "nom": "Old Fashioned",
+        "pays": "États-Unis",
+        "lat": 40.7128,
+        "lng": -74.006,
+        "image": "assets/img/old_fashioned.jpg",
+        "description": "Whiskey, sucre, bitters, eau.",
+        "alcool": "Whiskey"
+    },
+    {
+        "nom": "Mai Tai",
+        "pays": "États-Unis",
+        "lat": 21.3069,
+        "lng": -157.8583,
+        "image": "assets/img/mai_tai.jpg",
+        "description": "Rhum blanc, rhum ambré, liqueur d'orange, sirop orgeat, jus citron vert.",
+        "alcool": "Rhum"
+    },
+    {
+        "nom": "French 75",
+        "pays": "France",
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "image": "assets/img/french_75.jpg",
+        "description": "Gin, jus citron, sirop, champagne.",
+        "alcool": "Gin"
+    },
+    {
+        "nom": "Caipirinha",
+        "pays": "Brésil",
+        "lat": -22.9068,
+        "lng": -43.1729,
+        "image": "assets/img/caipirinha.jpg",
+        "description": "Cachaça, citron vert, sucre, glace pilée.",
+        "alcool": "Cachaça"
     }
 ]
