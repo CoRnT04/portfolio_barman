@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Barman - Contact</title>
+    <title>Contact Barman</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Contact</h1>
+        <div class="header-content">
+            <img src="assets/img/logo_cocktail.png" alt="Logo Cocktail" class="logo">
+            <h1>Mon Portfolio Cocktails</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Mes Cocktails</a></li>
@@ -24,8 +27,20 @@
     <main>
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email : <a href="mailto:corentin.agon@gmail.com">corentin.agon@gmail.com</a></p>
-            <p>LinkedIn : <a href="#">Mon profil</a></p>
+            <p>Vous pouvez me contacter par email : <a href="mailto:contact@cocktails.com">contact@cocktails.com</a></p>
+            <p>Ou via le formulaire de contact ci-dessous :</p>
+            <form>
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
         </section>
     </main>
 
