@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Barman - Carte des Cocktails</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
 
     <style>
         #map {
@@ -16,12 +18,23 @@
             margin: 20px auto;
             border-radius: 10px;
         }
+
+        .page-subtitle {
+            text-align: center;
+            color: #004f8c;
+            font-size: 2em;
+            margin-bottom: 20px;
+            /* Même marge que h2 sur les autres pages */
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Carte du Monde des Cocktails</h1>
+        <div class="header-content">
+            <img src="assets/img/logo_cocktail.png" alt="Logo Cocktail" class="logo">
+            <h1>Mon Portfolio Cocktails</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Mes Cocktails</a></li>
@@ -33,12 +46,17 @@
     </header>
 
     <main>
+        <!-- Sous-titre de la page -->
+        <h2 class="page-subtitle">Carte du Monde des Cocktails</h2>
+
         <div class="filters">
             <button class="filter-btn" data-alcool="Tous">Tous</button>
             <button class="filter-btn" data-alcool="Rhum">Rhum</button>
             <button class="filter-btn" data-alcool="Vodka">Vodka</button>
             <button class="filter-btn" data-alcool="Whiskey">Whiskey</button>
             <button class="filter-btn" data-alcool="Pisco">Pisco</button>
+            <button class="filter-btn" data-alcool="Gin">Gin</button>
+            <button class="filter-btn" data-alcool="Cachaça">Cachaça</button>
         </div>
 
         <div id="map"></div>
@@ -49,6 +67,7 @@
     </footer>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
     <script src="script_carte.js"></script>
 </body>
 
