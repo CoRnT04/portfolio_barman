@@ -115,5 +115,50 @@
         "image": "assets/img/caipirinha.jpg",
         "description": "Cachaça, citron vert, sucre, glace pilée.",
         "alcool": "Cachaça"
+    },
+    {
+        "nom": "Espresso Martini",
+        "pays": "Angleterre",
+        "lat": 51.509865,
+        "lng": -0.118092,
+        "image": "assets/img/espresso_martini.jpg",
+        "description": "Vodka, liqueur de café, espresso, sirop de sucre.",
+        "alcool": "Vodka"
+    },
+    {
+        "nom": "Moscow Mule",
+        "pays": "États-Unis",
+        "lat": 40.7128,
+        "lng": -74.006,
+        "image": "assets/img/moscow_mule.jpg",
+        "description": "Vodka, jus de citron vert, ginger beer.",
+        "alcool": "Vodka"
+    },
+    {
+        "nom": "Aperol Spritz",
+        "pays": "Italie",
+        "lat": 45.4408,
+        "lng": 12.3155,
+        "image": "assets/img/aperol_spritz.jpg",
+        "description": "Aperol, Prosecco, eau pétillante.",
+        "alcool": "Apéritif"
+    },
+    {
+        "nom": "Margarita",
+        "pays": "Mexique",
+        "lat": 19.4326,
+        "lng": -99.1332,
+        "image": "assets/img/margarita.jpg",
+        "description": "Tequila, triple sec, jus de citron vert.",
+        "alcool": "Tequila"
+    },
+    {
+        "nom": "Gin Tonic",
+        "pays": "Angleterre",
+        "lat": 51.509865,
+        "lng": -0.118092,
+        "image": "assets/img/gin_tonic.jpg",
+        "description": "Gin, tonic, glaçons et garniture aromatique.",
+        "alcool": "Gin"
     }
 ]
