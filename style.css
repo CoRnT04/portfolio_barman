@@ -11,14 +11,16 @@ html {
 }
 
 body {
-    background-color: #fefcf2;
+    background-color: #fff4ee;
+    /* Fond de page doux */
     color: #222;
     line-height: 1.6;
 }
 
 /* ---------- HEADER ---------- */
 header {
-    background: linear-gradient(135deg, #004f8c, #0066cc);
+    background: linear-gradient(135deg, #ff7f50, #ff6347);
+    /* Dégradé corail/orangé */
     color: #fff;
     padding: 25px 20px;
     text-align: center;
@@ -37,7 +39,6 @@ header .header-content {
 
 header .header-content .logo {
     width: 60px;
-    /* taille max du logo */
     height: auto;
     /* garde les proportions */
 }
@@ -77,8 +78,10 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: rgba(255, 215, 0, 0.2);
-    color: #ffd700;
+    background-color: rgba(255, 160, 122, 0.3);
+    /* survol doux */
+    color: #ffe4c4;
+    /* texte clair sur hover */
 }
 
 /* ---------- MAIN ---------- */
@@ -90,7 +93,8 @@ main {
 
 /* Titres de sections */
 h2 {
-    color: #004f8c;
+    color: #ff704d;
+    /* corail doux */
     margin-bottom: 20px;
     text-align: center;
     font-size: 2em;
@@ -104,9 +108,10 @@ h2 {
 }
 
 .cocktail {
-    background-color: #fff;
+    background-color: #fff1e6;
+    /* fond légèrement saumon clair */
     border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
     overflow: hidden;
     transition: transform 0.25s, box-shadow 0.25s;
     cursor: pointer;
@@ -114,7 +119,7 @@ h2 {
 
 .cocktail:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
 }
 
 .cocktail figure img {
@@ -128,7 +133,8 @@ h2 {
     text-align: center;
     padding: 10px;
     font-weight: bold;
-    background-color: #e6f0ff;
+    background-color: #ffe0d6;
+    /* doux */
     font-size: 1.1em;
 }
 
@@ -137,18 +143,20 @@ h2 {
 }
 
 .cocktail .details h3 {
-    color: #004f8c;
+    color: #ff704d;
     margin-bottom: 10px;
 }
 
 .avis {
     display: none;
     margin-top: 10px;
-    background-color: #f0e6ff;
+    background-color: #ffdacc;
     padding: 8px 12px;
     border-radius: 6px;
     font-style: italic;
     font-size: 0.95em;
+    color: #663300;
+    /* texte plus foncé */
 }
 
 .cocktail.active .avis {
@@ -159,7 +167,7 @@ h2 {
 .btn-carte {
     display: inline-block;
     padding: 12px 25px;
-    background-color: #004f8c;
+    background-color: #ff704d;
     color: #fff;
     text-decoration: none;
     border-radius: 8px;
@@ -169,7 +177,7 @@ h2 {
 }
 
 .btn-carte:hover {
-    background-color: #0066cc;
+    background-color: #ff8566;
 }
 
 /* ---------- FILTRES CARTE ---------- */
@@ -183,7 +191,7 @@ h2 {
     margin: 5px;
     border: none;
     border-radius: 6px;
-    background-color: #004f8c;
+    background-color: #ff704d;
     color: #fff;
     font-weight: bold;
     cursor: pointer;
@@ -191,33 +199,34 @@ h2 {
 }
 
 .filter-btn:hover {
-    background-color: #0066cc;
+    background-color: #ff8566;
     transform: scale(1.05);
 }
 
 /* ---------- TECHNIQUES ET CONTACT ---------- */
 #techniques ul li,
 #contact p {
-    background-color: #e6f0ff;
+    background-color: #ffe0d6;
     padding: 15px 20px;
     border-radius: 10px;
     margin-bottom: 12px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     font-size: 1.05em;
+    color: #663300;
 }
 
 /* ---------- FOOTER ---------- */
 footer {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, #0066cc, #004f8c);
+    background: linear-gradient(135deg, #ff6347, #ff7f50);
     color: #fff;
     font-size: 0.95em;
     margin-top: 30px;
 }
 
 footer a {
-    color: #ffd700;
+    color: #ffe4c4;
     text-decoration: none;
     margin: 0 6px;
     transition: color 0.3s;
