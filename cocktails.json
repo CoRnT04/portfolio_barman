@@ -160,5 +160,34 @@
         "image": "assets/img/gin_tonic.jpg",
         "description": "Gin, tonic, glaçons et garniture aromatique.",
         "alcool": "Gin"
+    },
+    {
+        "nom": "Sex on the Beach",
+        "pays": "États-Unis",
+        "lat": 25.7617,
+        "lng": -80.1918,
+        "image": "assets/img/sex_on_the_beach.jpg",
+        "description": "Vodka, crème de pêche, jus de cranberry, jus d’orange.",
+        "alcool": "Vodka"
+    }
+
+    {
+        "nom": "Planteur",
+        "pays": "Martinique",
+        "lat": 14.6415,
+        "lng": -61.0242,
+        "image": "assets/img/planteur.jpg",
+        "description": "Rhum, jus d’orange, jus d’ananas, grenadine.",
+        "alcool": "Rhum"
+    }
+
+    {
+        "nom": "Amaretto Sour",
+        "pays": "Italie",
+        "lat": 45.4642,
+        "lng": 9.1900,
+        "image": "assets/img/amaretto_sour.jpg",
+        "description": "Amaretto, jus de citron, sirop de sucre, blanc d’œuf (optionnel).",
+        "alcool": "Amaretto"
     }
 ]
