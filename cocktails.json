@@ -169,8 +169,7 @@
         "image": "assets/img/sex_on_the_beach.jpg",
         "description": "Vodka, crème de pêche, jus de cranberry, jus d’orange.",
         "alcool": "Vodka"
-    }
-
+    },
     {
         "nom": "Planteur",
         "pays": "Martinique",
@@ -179,8 +178,7 @@
         "image": "assets/img/planteur.jpg",
         "description": "Rhum, jus d’orange, jus d’ananas, grenadine.",
         "alcool": "Rhum"
-    }
-
+    },
     {
         "nom": "Amaretto Sour",
         "pays": "Italie",
@@ -191,3 +189,4 @@
         "alcool": "Amaretto"
     }
 ]
+
