@@ -8,6 +8,8 @@
 
 html {
     overflow-y: scroll;
+    height: 100%;
+    /* Pour sticky footer */
 }
 
 body {
@@ -15,6 +17,12 @@ body {
     /* Fond de page doux */
     color: #222;
     line-height: 1.6;
+    display: flex;
+    /* Sticky footer */
+    flex-direction: column;
+    /* Corps en colonne */
+    min-height: 100vh;
+    /* Toujours prendre toute la hauteur */
 }
 
 /* ---------- HEADER ---------- */
@@ -83,6 +91,8 @@ main {
     max-width: 1000px;
     margin: 25px auto;
     padding: 0 20px;
+    flex: 1;
+    /* Prend tout l'espace restant pour sticky footer */
 }
 
 /* Titres de sections */
@@ -272,7 +282,6 @@ body.contact-page main #contact {
 
 body.contact-page .contact-container {
     max-width: 700px;
-    /* largeur légèrement plus grande */
     width: 100%;
     background-color: #fff0e6;
     padding: 25px 20px;
@@ -333,17 +342,6 @@ footer {
     color: #fff;
     font-size: 0.95em;
     margin-top: 30px;
-}
-
-footer a {
-    color: #ffe4c4;
-    text-decoration: none;
-    margin: 0 6px;
-    transition: color 0.3s;
-}
-
-footer a:hover {
-    color: #fff;
 }
 
 /* ---------- MEDIA QUERIES ---------- */
