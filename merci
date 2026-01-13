@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merci pour votre message</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="assets/img/logo_cocktail.png" alt="Logo Cocktail" class="logo">
+            <h1>Mon Portfolio Cocktails</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Mes Cocktails</a></li>
+                <li><a href="techniques.html">Techniques</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="carte.html">Carte du Monde</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="merci" style="text-align:center; padding:50px 20px;">
+            <h2>Merci !</h2>
+            <p>Votre message a bien été envoyé. Je vous répondrai dès que possible.</p>
+            <p>Vous pouvez revenir à la <a href="index.html">page d'accueil</a> ou consulter mes <a
+                    href="techniques.html">techniques de barman</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mon Portfolio Barman</p>
+    </footer>
+</body>
+
+</html>
