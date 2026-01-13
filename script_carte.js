@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Groupe de clusters avec style DA
 const markersCluster = L.markerClusterGroup({
-    maxClusterRadius: 50, // un peu plus large pour clusters
+    maxClusterRadius: 50,
     showCoverageOnHover: false,
     spiderfyOnMaxZoom: true,
     iconCreateFunction: function (cluster) {
@@ -35,15 +35,17 @@ const markersCluster = L.markerClusterGroup({
 
 let allMarkers = [];
 
-// Charger les cocktails depuis JSON
+// Charger les cocktails depuis JSON versionné
 fetch('cocktails.json')
     .then(res => res.json())
-    .then(cocktails => {
-        cocktails.forEach(cocktail => {
+    .then(data => {
+        console.log(`Cocktails JSON v${data.version} — dernière mise à jour : ${data.lastUpdate}`);
+
+        data.cocktails.forEach(cocktail => {
             const marker = L.circleMarker([cocktail.lat, cocktail.lng], {
-                radius: 9,                  // légèrement plus grand
-                fillColor: "#FF7E5F",       // couleur DA
-                color: "#FFB347",           // bordure DA
+                radius: 9,
+                fillColor: "#FF7E5F",
+                color: "#FFB347",
                 weight: 2,
                 opacity: 1,
                 fillOpacity: 0.9
@@ -65,6 +67,9 @@ fetch('cocktails.json')
         });
 
         map.addLayer(markersCluster);
+    })
+    .catch(err => {
+        console.error("Erreur lors du chargement des cocktails :", err);
     });
 
 // Filtrage par alcool
