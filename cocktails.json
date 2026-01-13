@@ -1,192 +1,195 @@
-[
-    {
-        "nom": "Mojito",
-        "pays": "Cuba",
-        "lat": 23.1136,
-        "lng": -82.3666,
-        "image": "assets/img/mojito.jpg",
-        "description": "Rhum, citron vert, menthe, sucre et eau gazeuse.",
-        "alcool": "Rhum"
-    },
-    {
-        "nom": "Daiquiri",
-        "pays": "Cuba",
-        "lat": 23.1136,
-        "lng": -82.3666,
-        "image": "assets/img/daiquiri.jpg",
-        "description": "Rhum blanc, jus citron vert, sirop de sucre.",
-        "alcool": "Rhum"
-    },
-    {
-        "nom": "Pornstar Martini",
-        "pays": "Angleterre",
-        "lat": 51.509865,
-        "lng": -0.118092,
-        "image": "assets/img/pornstar_martini.jpg",
-        "description": "Vodka, purée et liqueur de passion, Prosecco à côté.",
-        "alcool": "Vodka"
-    },
-    {
-        "nom": "Cosmopolitan",
-        "pays": "États-Unis",
-        "lat": 40.7128,
-        "lng": -74.006,
-        "image": "assets/img/cosmopolitan.jpg",
-        "description": "Vodka, triple sec, jus de cranberry, jus citron vert.",
-        "alcool": "Vodka"
-    },
-    {
-        "nom": "Whiskey Sour",
-        "pays": "États-Unis",
-        "lat": 40.7128,
-        "lng": -74.006,
-        "image": "assets/img/whiskey_sour.jpg",
-        "description": "Whiskey, jus de citron, sirop, blanc d'œuf.",
-        "alcool": "Whiskey"
-    },
-    {
-        "nom": "Pisco Sour",
-        "pays": "Pérou",
-        "lat": -9.19,
-        "lng": -75.0152,
-        "image": "assets/img/pisco_sour.jpg",
-        "description": "Pisco, jus citron vert, sirop, blanc d'œuf, bitter.",
-        "alcool": "Pisco"
-    },
-    {
-        "nom": "Piña Colada",
-        "pays": "Porto Rico",
-        "lat": 18.2208,
-        "lng": -66.5901,
-        "image": "assets/img/pina_colada.jpg",
-        "description": "Rhum blanc, lait de coco, jus d'ananas.",
-        "alcool": "Rhum"
-    },
-    {
-        "nom": "Blue Lagoon",
-        "pays": "France",
-        "lat": 48.8566,
-        "lng": 2.3522,
-        "image": "assets/img/blue_lagoon.jpg",
-        "description": "Vodka, curaçao bleu, jus de citron, eau gazeuse.",
-        "alcool": "Vodka"
-    },
-    {
-        "nom": "Negroni",
-        "pays": "Italie",
-        "lat": 45.4642,
-        "lng": 9.19,
-        "image": "assets/img/negroni.jpg",
-        "description": "Gin, Campari, Vermouth rouge.",
-        "alcool": "Gin"
-    },
-    {
-        "nom": "Old Fashioned",
-        "pays": "États-Unis",
-        "lat": 40.7128,
-        "lng": -74.006,
-        "image": "assets/img/old_fashioned.jpg",
-        "description": "Whiskey, sucre, bitters, eau.",
-        "alcool": "Whiskey"
-    },
-    {
-        "nom": "Mai Tai",
-        "pays": "États-Unis",
-        "lat": 21.3069,
-        "lng": -157.8583,
-        "image": "assets/img/mai_tai.jpg",
-        "description": "Rhum blanc, rhum ambré, liqueur d'orange, sirop orgeat, jus citron vert.",
-        "alcool": "Rhum"
-    },
-    {
-        "nom": "French 75",
-        "pays": "France",
-        "lat": 48.8566,
-        "lng": 2.3522,
-        "image": "assets/img/french_75.jpg",
-        "description": "Gin, jus citron, sirop, champagne.",
-        "alcool": "Gin"
-    },
-    {
-        "nom": "Caipirinha",
-        "pays": "Brésil",
-        "lat": -22.9068,
-        "lng": -43.1729,
-        "image": "assets/img/caipirinha.jpg",
-        "description": "Cachaça, citron vert, sucre, glace pilée.",
-        "alcool": "Cachaça"
-    },
-    {
-        "nom": "Espresso Martini",
-        "pays": "Angleterre",
-        "lat": 51.509865,
-        "lng": -0.118092,
-        "image": "assets/img/espresso_martini.jpg",
-        "description": "Vodka, liqueur de café, espresso, sirop de sucre.",
-        "alcool": "Vodka"
-    },
-    {
-        "nom": "Moscow Mule",
-        "pays": "États-Unis",
-        "lat": 40.7128,
-        "lng": -74.006,
-        "image": "assets/img/moscow_mule.jpg",
-        "description": "Vodka, jus de citron vert, ginger beer.",
-        "alcool": "Vodka"
-    },
-    {
-        "nom": "Aperol Spritz",
-        "pays": "Italie",
-        "lat": 45.4408,
-        "lng": 12.3155,
-        "image": "assets/img/aperol_spritz.jpg",
-        "description": "Aperol, Prosecco, eau pétillante.",
-        "alcool": "Apéritif"
-    },
-    {
-        "nom": "Margarita",
-        "pays": "Mexique",
-        "lat": 19.4326,
-        "lng": -99.1332,
-        "image": "assets/img/margarita.jpg",
-        "description": "Tequila, triple sec, jus de citron vert.",
-        "alcool": "Tequila"
-    },
-    {
-        "nom": "Gin Tonic",
-        "pays": "Angleterre",
-        "lat": 51.509865,
-        "lng": -0.118092,
-        "image": "assets/img/gin_tonic.jpg",
-        "description": "Gin, tonic, glaçons et garniture aromatique.",
-        "alcool": "Gin"
-    },
-    {
-        "nom": "Sex on the Beach",
-        "pays": "États-Unis",
-        "lat": 25.7617,
-        "lng": -80.1918,
-        "image": "assets/img/sex_on_the_beach.jpg",
-        "description": "Vodka, crème de pêche, jus de cranberry, jus d’orange.",
-        "alcool": "Vodka"
-    },
-    {
-        "nom": "Planteur",
-        "pays": "Martinique",
-        "lat": 14.6415,
-        "lng": -61.0242,
-        "image": "assets/img/planteur.jpg",
-        "description": "Rhum, jus d’orange, jus d’ananas, grenadine.",
-        "alcool": "Rhum"
-    },
-    {
-        "nom": "Amaretto Sour",
-        "pays": "Italie",
-        "lat": 45.4642,
-        "lng": 9.1900,
-        "image": "assets/img/amaretto_sour.jpg",
-        "description": "Amaretto, jus de citron, sirop de sucre, blanc d’œuf (optionnel).",
-        "alcool": "Amaretto"
-    }
-]
-
+{
+    "version": "1.3.0",
+    "lastUpdate": "2025-01-15",
+    "cocktails": [
+        {
+            "nom": "Mojito",
+            "pays": "Cuba",
+            "lat": 23.1136,
+            "lng": -82.3666,
+            "image": "assets/img/mojito.jpg",
+            "description": "Rhum, citron vert, menthe, sucre et eau gazeuse.",
+            "alcool": "Rhum"
+        },
+        {
+            "nom": "Daiquiri",
+            "pays": "Cuba",
+            "lat": 23.1136,
+            "lng": -82.3666,
+            "image": "assets/img/daiquiri.jpg",
+            "description": "Rhum blanc, jus citron vert, sirop de sucre.",
+            "alcool": "Rhum"
+        },
+        {
+            "nom": "Pornstar Martini",
+            "pays": "Angleterre",
+            "lat": 51.509865,
+            "lng": -0.118092,
+            "image": "assets/img/pornstar_martini.jpg",
+            "description": "Vodka, purée et liqueur de passion, Prosecco à côté.",
+            "alcool": "Vodka"
+        },
+        {
+            "nom": "Cosmopolitan",
+            "pays": "États-Unis",
+            "lat": 40.7128,
+            "lng": -74.006,
+            "image": "assets/img/cosmopolitan.jpg",
+            "description": "Vodka, triple sec, jus de cranberry, jus citron vert.",
+            "alcool": "Vodka"
+        },
+        {
+            "nom": "Whiskey Sour",
+            "pays": "États-Unis",
+            "lat": 40.7128,
+            "lng": -74.006,
+            "image": "assets/img/whiskey_sour.jpg",
+            "description": "Whiskey, jus de citron, sirop, blanc d'œuf.",
+            "alcool": "Whiskey"
+        },
+        {
+            "nom": "Pisco Sour",
+            "pays": "Pérou",
+            "lat": -9.19,
+            "lng": -75.0152,
+            "image": "assets/img/pisco_sour.jpg",
+            "description": "Pisco, jus citron vert, sirop, blanc d'œuf, bitter.",
+            "alcool": "Pisco"
+        },
+        {
+            "nom": "Piña Colada",
+            "pays": "Porto Rico",
+            "lat": 18.2208,
+            "lng": -66.5901,
+            "image": "assets/img/pina_colada.jpg",
+            "description": "Rhum blanc, lait de coco, jus d'ananas.",
+            "alcool": "Rhum"
+        },
+        {
+            "nom": "Blue Lagoon",
+            "pays": "France",
+            "lat": 48.8566,
+            "lng": 2.3522,
+            "image": "assets/img/blue_lagoon.jpg",
+            "description": "Vodka, curaçao bleu, jus de citron, eau gazeuse.",
+            "alcool": "Vodka"
+        },
+        {
+            "nom": "Negroni",
+            "pays": "Italie",
+            "lat": 45.4642,
+            "lng": 9.19,
+            "image": "assets/img/negroni.jpg",
+            "description": "Gin, Campari, Vermouth rouge.",
+            "alcool": "Gin"
+        },
+        {
+            "nom": "Old Fashioned",
+            "pays": "États-Unis",
+            "lat": 40.7128,
+            "lng": -74.006,
+            "image": "assets/img/old_fashioned.jpg",
+            "description": "Whiskey, sucre, bitters, eau.",
+            "alcool": "Whiskey"
+        },
+        {
+            "nom": "Mai Tai",
+            "pays": "États-Unis",
+            "lat": 21.3069,
+            "lng": -157.8583,
+            "image": "assets/img/mai_tai.jpg",
+            "description": "Rhum blanc, rhum ambré, liqueur d'orange, sirop orgeat, jus citron vert.",
+            "alcool": "Rhum"
+        },
+        {
+            "nom": "French 75",
+            "pays": "France",
+            "lat": 48.8566,
+            "lng": 2.3522,
+            "image": "assets/img/french_75.jpg",
+            "description": "Gin, jus citron, sirop, champagne.",
+            "alcool": "Gin"
+        },
+        {
+            "nom": "Caipirinha",
+            "pays": "Brésil",
+            "lat": -22.9068,
+            "lng": -43.1729,
+            "image": "assets/img/caipirinha.jpg",
+            "description": "Cachaça, citron vert, sucre, glace pilée.",
+            "alcool": "Cachaça"
+        },
+        {
+            "nom": "Espresso Martini",
+            "pays": "Angleterre",
+            "lat": 51.509865,
+            "lng": -0.118092,
+            "image": "assets/img/espresso_martini.jpg",
+            "description": "Vodka, liqueur de café, espresso, sirop de sucre.",
+            "alcool": "Vodka"
+        },
+        {
+            "nom": "Moscow Mule",
+            "pays": "États-Unis",
+            "lat": 40.7128,
+            "lng": -74.006,
+            "image": "assets/img/moscow_mule.jpg",
+            "description": "Vodka, jus de citron vert, ginger beer.",
+            "alcool": "Vodka"
+        },
+        {
+            "nom": "Aperol Spritz",
+            "pays": "Italie",
+            "lat": 45.4408,
+            "lng": 12.3155,
+            "image": "assets/img/aperol_spritz.jpg",
+            "description": "Aperol, Prosecco, eau pétillante.",
+            "alcool": "Apéritif"
+        },
+        {
+            "nom": "Margarita",
+            "pays": "Mexique",
+            "lat": 19.4326,
+            "lng": -99.1332,
+            "image": "assets/img/margarita.jpg",
+            "description": "Tequila, triple sec, jus de citron vert.",
+            "alcool": "Tequila"
+        },
+        {
+            "nom": "Gin Tonic",
+            "pays": "Angleterre",
+            "lat": 51.509865,
+            "lng": -0.118092,
+            "image": "assets/img/gin_tonic.jpg",
+            "description": "Gin, tonic, glaçons et garniture aromatique.",
+            "alcool": "Gin"
+        },
+        {
+            "nom": "Sex on the Beach",
+            "pays": "États-Unis",
+            "lat": 25.7617,
+            "lng": -80.1918,
+            "image": "assets/img/sex_on_the_beach.jpg",
+            "description": "Vodka, crème de pêche, jus de cranberry, jus d’orange.",
+            "alcool": "Vodka"
+        },
+        {
+            "nom": "Planteur",
+            "pays": "Martinique",
+            "lat": 14.6415,
+            "lng": -61.0242,
+            "image": "assets/img/planteur.jpg",
+            "description": "Rhum, jus d’orange, jus d’ananas, grenadine.",
+            "alcool": "Rhum"
+        },
+        {
+            "nom": "Amaretto Sour",
+            "pays": "Italie",
+            "lat": 45.4642,
+            "lng": 9.1900,
+            "image": "assets/img/amaretto_sour.jpg",
+            "description": "Amaretto, jus de citron, sirop de sucre, blanc d’œuf (optionnel).",
+            "alcool": "Amaretto"
+        }
+    ]
+}
